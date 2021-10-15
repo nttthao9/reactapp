@@ -1,0 +1,26 @@
+.TodoItem {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #333;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 1.5rem;
+}
+.TodoItem-complete {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+.delete-icon {
+  margin-left: auto;
+  font-size: 18px;
+  cursor: pointer;
+}
+.checkbox {
+  margin-right: 1rem;
+  display: block;
+  cursor: pointer;
+}
