@@ -9,6 +9,7 @@
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 1.5rem;
+  cursor: pointer;
 }
 .TodoItem-complete {
   opacity: 0.4;

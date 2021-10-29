@@ -36,11 +36,18 @@ img {
   height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-task {
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 550px;
 }
-
+.btn-add {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     -webkit-animation: App-logo-spin infinite 20s linear;
